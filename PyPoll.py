@@ -48,7 +48,7 @@ winning_candidate_summary = (
     f"-------------------------\n")
 print(winning_candidate_summary)  
 
-# print candidate name for each row
+
 
 
 
