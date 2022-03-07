@@ -1,4 +1,4 @@
-# election-analysis
+# PyPoll With Python
 analyzing election outcomes via python
 
 ## Project Overview
