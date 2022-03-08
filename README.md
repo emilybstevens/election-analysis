@@ -1,5 +1,5 @@
 # PyPoll With Python
-analyzing election outcomes via python
+Analyzing election results via python
 
 ## Project Overview
 A Colorado Board of Elections has given you the following tasks to complete the election audit of a recent local congressional election. 
