@@ -34,7 +34,7 @@ The analysis of the election shows that:
 ## Challenge Overview
 
 The purpose of this election audit was to write a Python algorithm that could efficentaly tabulate votes for a Colorado Board of Elections. 
-Applications for tabulation include: calculating total number of votes cast, determining a complete list of candidates who received votes, calculating the votes received by each candidate, calculating the percentage of votes received by each candidate, and determining the winner of the election based on popular vote.
+Applications for tabulation include: calculating total number of votes cast, determining a complete list of candidates who received votes, calculating the votes received by each candidate, calculating the percentage of votes received by each candidate, and determining the winner of the election based on popular vote.</br></br>
 The Colorado Board of Elections also requested that calculations be performed by county. This meant adding in a section to determine the voter turnout by county, the percentage of votes each county contributed to the total vote count, and the county with the highest turnout. 
 
 
