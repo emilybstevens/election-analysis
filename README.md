@@ -8,7 +8,7 @@ A Colorado Board of Elections has requested a Python algorithm that can tabulate
 2. Get a complete list of candidates who received votes.
 3. Calculate the total number of votes each candidate received. 
 4. Calculate the percentage of votes each candidate won. 
-5. Determine the winner of the election based on popular vote. </br></br>
+5. Determine the winner of the election based on popular vote. </br>
 
 In addition, the Board has requested that the algorithm be able to analyze the data by county. 
 
@@ -34,7 +34,7 @@ The analysis of the election shows that:
 	- Raymon Anthony Doane received 3.1% of the vote and 11,606 votes. 
 - The winner of the election was: 
 	- Diana DeGette, who received 73.8% of the vote and 272,892 votes. 
-### Image of Terminal Output
+### Algorithm's Terminal Output
 ![Terminal Output](Resources/Terminal_Output.png)
 
 ## Challenge Overview
@@ -45,7 +45,6 @@ The Colorado Board of Elections also requested that calculations be performed by
 
 
 ## Election-Audit Summary
-- Provide business proposal to the election commision on how this script can be used (with modifications) for any election.
-
-
-- Include two examples of how this script can be modified to be used for other elections
+Since this algorithm can efficiently loop through data while tabulating vote counts for several different application simultaneously, it can be assumed that this algorithm could easily be expanded to other election formats. </br>
+Because of the way the code is structured, it would not be difficult to expand it to a situation where multiple offices are up for election. Adding in an additional For Loop that tabulates votes for each seat would be simple. It would also be possible to nest another For Loop under that added bit of code to calculate the votes by county again for voter turnout. </br>
+It would also be possible to expand this algorithm to tabulation of party primaries, as long as the .csv tracks which party the voter is voting under (ie: Democrat, Republican, Independent, etc.). You could create a list for each party, [party]_candidate_list and then create a loop that would only append candidate names to the [party]_candidate_list if the voter's party matches that of the list. After that, you could just re-utilize the code present in this algorithm to calculate the votes under each party list for their respective candidates and include county breakdown. 
