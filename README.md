@@ -2,13 +2,19 @@
 Analyzing election results via python
 
 ## Project Overview
-A Colorado Board of Elections has given you the following tasks to complete the election audit of a recent local congressional election. 
+A Colorado Board of Elections has requested a Python algorithm that can tabulate election results. The following capabilities were requested: 
 
 1. Calculate the total number of votes cast. 
 2. Get a complete list of candidates who received votes.
 3. Calculate the total number of votes each candidate received. 
 4. Calculate the percentage of votes each candidate won. 
-5. Determine the winner of the election based on popular vote. 
+5. Determine the winner of the election based on popular vote. </br></br>
+
+In addition, the Board has requested that the algorithm be able to analyze the data by county. 
+
+1. Calculate the voter turnout by county. 
+2. Calculate the percentage of votes from each county out of the total count. 
+3. Determine the county with the highest voter turnout. 
 
 ## Resources
 - Data source: election_results.csv
@@ -40,5 +46,6 @@ The Colorado Board of Elections also requested that calculations be performed by
 
 ## Election-Audit Summary
 - Provide business proposal to the election commision on how this script can be used (with modifications) for any election.
+
+
 - Include two examples of how this script can be modified to be used for other elections
--git bash test
